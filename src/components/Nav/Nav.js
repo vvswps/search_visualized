@@ -1,22 +1,20 @@
 import React from "react";
 import styles from "./nav.module.css";
+import { Link } from "react-router-dom";
 
-const Nav = () => {
+const Navbar = () => {
   return (
     <nav>
       <ul className={styles.navItems}>
         <li>
-          <a href="#">Search Visualized</a>
+          <Link to="/linear-search">Linear Search</Link>
         </li>
         <li>
-          <a>Linear Search</a>
-        </li>
-        <li>
-          <a>Binary Search</a>
+          <Link to="/binary-search">Binary Search</Link>
         </li>
       </ul>
     </nav>
   );
 };
 
-export default Nav;
+export default Navbar;

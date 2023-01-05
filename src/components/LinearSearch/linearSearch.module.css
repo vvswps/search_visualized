@@ -10,9 +10,29 @@
   width: 2rem;
   height: 20rem;
   border: 1px solid black;
+}
+.readElement {
   background-color: blueviolet;
 }
 
 .selectedElement {
   background-color: red;
+}
+
+.linear-search {
+  font-size: 1.6rem;
+}
+.inputContainer span {
+  margin-left: 0.4rem;
+}
+
+.inputContainer span input {
+  margin-left: 0.4rem;
+}
+
+button {
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.6rem;
+  margin-left: 0.4rem;
 }
