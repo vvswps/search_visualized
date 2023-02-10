@@ -2,6 +2,8 @@
 
 This app allows users to visualize and compare the performance of different search algorithms.
 
+![Search Algorithm Visualization App](search.png)
+
 ## Current Objectives
 
 * Implement linear search algorithm visualization
